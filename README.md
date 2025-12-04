@@ -1,11 +1,18 @@
-# ⚡ GO-LIB: The Modern Go Developer's Utility Kit
+# ⚡ My own GO-based library 
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/iamkaro/GO-LIB)](https://go.dev/) 
 [![GitHub Stars](https://img.shields.io/github/stars/iamkaro/GO-LIB?style=social)](https://github.com/iamkaro/GO-LIB/stargazers)
 
 
+*Developed in 2021* 
+<br>
 
-A curated, high-performance collection of Go packages that extends the standard library with essential utilities, advanced concurrency primitives, and localized features for faster application development.
+
+GO-LIB is a Modern Go Developer's Utility Kit. 
+A high-performance toolkit that extends the standard library with essential features. 
+GO-LIB provides modules for **advanced concurrency**, **robust networking**, **comprehensive OS tools**, data manipulation using **generics**, and **native localization support**.
+<br>
+
 
 
 ## ✨ Highlights & Key Features
@@ -87,11 +94,10 @@ go get github.com/iamkaro/GO-LIB
 
 | Package | Purpose | Key Functions/Methods |
 | :--- | :--- | :--- |
-| **`time`** | Extended time utilities, providing detailed date/time parsing and formatting, with specific methods dedicated to **Iran Standard Time** (`Iran.TimeNow()`). | `Iran.TimeNow()`, `Iran.Parse()`, `Iran.ParseString()`, `Iran.ParseUnix()`, `Iran.ParseUnixNano()` |
+| **`time`** | Extended time utilities, providing **detailed date/time parsing and formatting across any timezone structure**. The package includes dedicated structures for specific timezones, such as **Iran Standard Time (IST)**, as implementation examples. | `Iran.TimeNow()`, `Iran.Parse()`, `Iran.ParseString()`, `Iran.ParseUnix()`, `Iran.ParseUnixNano()` |
 | **`time/solar`** | Specialized functions for converting between **Gregorian and Persian (Solar/Jalali) calendars**, including leap year calculation and Unix timestamp conversion. | `ToSolar()`, `LeapYear()`, `ToUnix()` |
 
 > **How to Import:** To import packages in this section, use the main path `github.com/iamkaro/GO-LIB` followed by the sub-path (e.g., **`time/solar`**). **Example: `"github.com/iamkaro/GO-LIB/time/solar"`**
-
 
 
 ## 🤝 Contributing to GO-LIB
